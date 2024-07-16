@@ -33,7 +33,7 @@ public class Counter {
     }
 
     public void increaseCounter() {
-        //TODO increase counter value by step size.
+        counter += stepSize;
     }
 
     public int getCounter() {
@@ -41,6 +41,6 @@ public class Counter {
     }
 
     public void initialize() {
-        //TODO inititialize counter with initial value.
+        counter = initValue;
     }
 }
